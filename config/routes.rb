@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'cities#index'
   resources :posts
   resources :games
   resources :cities
